@@ -1,0 +1,92 @@
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я
+pwd
+
+2) Создать папку
+mkdir p1
+
+3) Зайти в папку
+cd Courses35
+
+4) Создать 3 папки
+mkdir test1 test2 test3
+
+5) Зайти в любоую папку
+cd test1 
+
+6) Создать 5 файлов (3 txt, 2 json)
+touch file1.txt file2.txt file3.txt file4.json file5.json
+
+7) Создать 3 папки
+mkdir p1 p2 p3
+
+8. Вывести список содержимого папки
+ls
+но я для удобства использую ls -1 выдавать в одноколоночном формате.
+Так читать удобнее
+
+9) + Открыть любой txt файл
+vim test1.txt
+но мне удобнее nano test1.txt
+
+10) + написать туда что-нибудь, любой текст.
+This is example text for my HomeWork with GitBash
+
+11) + сохранить и выйти.
+Ctrl+O > Ctrl+X
+
+12) Выйти из папки на уровень выше
+cd ..
+
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv file2.txt file3.txt /d/Courses35/Lesson1_GitBash/test2
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+cp file4.json file5.json /d/Courses35/Lesson1_GitBash/test3
+
+15) Найти файл по имени
+find /d/Courses35/Lesson1_GitBash/test1 -name file1.txt
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+grep -i "HomeWork" file1.txt
+-i - игнорирует регистр
+
+17) вывести несколько первых строк из текстового файла
+head -n 4 file1.txt
+
+18) вывести несколько последних строк из текстового файла
+tail -n 4 file1.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+less file1.txt
+Позволяет стрелками просматривать файл
+Ctrl+Z для выхода
+
+20) вывести дату и время
+date
+=============================================================================================
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+curl http://162.55.220.72:5006/terminal-hw-request
+
+Я получил
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0   283    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 283
+Server: Werkzeug/2.0.1 Python/3.8.10
+Date: Tue, 13 Jun 2023 15:46:18 GMT
+
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+Создал файл Script.sh
+Записал в него все команды
+Выполнил файл с помощью 
+bash Script.sh
+
+
+=============================================================================================

@@ -1,0 +1,19 @@
+This is example text for my HomeWork with GitBash
+SSuspendisse bibendum hendrerit ante, nec vulputate libero gravida vel. 
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+turpis egestas. Pellentesque volutpat tellus quis velit consequat, non blandit 
+justo posuere. Mauris convallis non diam eu fringilla. Morbi vitae cursus lacus. 
+In euismod pharetra mollis. Vivamus mollis quis velit nec commodo. Nullam a leo aliquam, 
+auctor lectus accumsan, sodales nibh. Maecenas tincidunt aliquam ornare. Integer id ultrices nisi. 
+Maecenas consequat augue ante, non scelerisque sapien porttitor id. Phasellus rhoncus luctus feugiat. 
+Sed ex enim, venenatis vitae sapien convallis, cursus sollicitudin neque.
+
+Curabitur porta purus et lectus ultrices, eu placerat est aliquam. Praesent eget enim ac 
+felis porta sodales ac in lectus. Integer dignissim rhoncus fermentum. Phasellus congue sapien 
+nec ornare vestibulum. Cras eget metus maximus, tempor ante nec, varius ex. Ut malesuada bibendum 
+laoreet. Duis luctus tristique tortor, vel vulputate felis feugiat sed. Integer sed massa ullamcorper, 
+facilisis lectus id, tempus risus. Vestibulum eget accumsan diam, ac malesuada mi. Praesent mollis s
+agittis libero, eu gravida mauris maximus in. In eget suscipit metus, at eleifend justo. Praesent 
+lacinia dui justo, in aliquam tellus sodales et. Lorem ipsum dolor sit amet, consectetur adipiscing 
+elit. Ut sit amet erat quis velit rutrum varius at id nibh. Lorem ipsum dolor sit amet, consectetur 
+adipiscing elit.
